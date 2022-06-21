@@ -41,7 +41,7 @@ function Home() {
 
 <Link to="/list" type="submit" class="signup" >Sign in</Link>
 
-<p>New to cosmatic trip?<Link to="/register"> Sign up</Link></p>
+<p>Dont have an account?<Link to="/register"> Sign up</Link></p>
 </form>
 
 </div>
