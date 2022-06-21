@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Merienda+One&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../Pictures/R\ \(1\).jpg) ;
+    height:95.3vh;
+    background-size: cover;
+    background-position: bottom;
+
+    background-repeat: no-repeat;
+    }
+.todo{
+    padding: 0;
+    margin: 0;
+    width: 95%;
+    height: 850px;
+    margin: 0 auto;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Josefin', sans-serif;
+    font-family: 'Merienda One',cursive;
+    
+}
+.todo .left1{
+   
+    float:left;
+    width: 20%;
+    height: 88.5vh;
+    color: white;
+    background: rgba(235, 117, 133, 0.8);
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+.label1{
+
+    margin-top: 40px;
+
+}
+
+.left1 h2{
+
+margin-top: 20px;
+margin-left: 50px;
+font-size: 30px;
+}
+.left1 h1{
+    font-size: 1.5em;
+    margin-top: 30px;
+    padding-top: 3%;
+    height: 50px;
+    text-align: center;
+    margin-left: 35px;
+   border-radius: 50%;
+   width: 58px;
+   background-color: rgb(139, 7, 47);
+   
+}
+
+
+.todo .right1{
+
+   float: right;
+    width: 80%;
+   height: 88.5vh;
+    background: rgba(253, 252, 245, 0.6);
+
+}
+.right1 h1{
+
+color: rgb(158, 18, 88);
+padding-top: 15px;
+padding-left: 400px;
+font-size: 50px;
+
+}
+.right1 h2{
+
+color: rgb(158, 18, 88);
+padding-left: 30px ;
+font-size: 30px;
+}
+.input1 ::placeholder{
+padding-left: 20px;
+}
+.input1{
+
+border-radius: 30px;
+width: 300px;
+height: 25px;
+margin-left: 20px;
+margin-top: 30px;
+
+
+}
+.label{
+
+display:flex;
+margin-left: 25px;
+margin-top: 20px;
+
+
+}
+.input2 ::placeholder{
+    padding-left: 15px;
+}
+
+
+.input2 input{
+
+    border: none;
+border-bottom: 2px solid #e88989;
+outline:none;
+width: 270px;
+margin-top: 270px;
+margin-bottom: 10px;
+height: 30px;
+border-radius: 30px;
+margin-left: 10px;
+background-color: rgba(239, 200, 208, 0.9);
+color:white;
+
+
+}
+.button{
+    height: 35px;
+    background-color: rgb(240, 229, 14);
+    border: none;
+    width: 60px;
+    border-radius: 30px;
+    margin-left: 5px;
+    
+}
+.input3::placeholder{
+
+    padding-left: 20px;
+}
+.input3{
+
+    margin-top: 10px;
+    width: 1200px;
+    height: 40px;
+    margin-left: 15px;
+    border-radius: 30px;
+    border: 2px;
+}
+
+    .svg-icon{
+        height: 25px;
+        margin-bottom:-5px ;
+        margin-left: 10px;
+        margin-right: 5px;
+        
+        }
+
+        .title{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 10px;
+        
+        }
+
+.task {
+    
+ border-radius: 30px;
+ background-color: rgb(255, 255, 255, 0.5);
+ box-shadow: 0 15px 40px rgba(0, 0, 0, .5);
+ width: 1300px;
+ margin-left: 20px;
+ margin-top: 10px;
+ height: auto;
+}
+
+.text1{
+
+background-color: rgb(252, 250, 250,0);
+height: 50px;
+width:1100px ;
+margin-left: 5px;
+margin-top: 20px;
+border-radius: 10px;
+border: none;
+font-size: 30px;
+}
+.box{
+    height:20px;
+    width: 20px;
+}
+.task button{
+
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(249, 249, 244,0);
+    border: none;
+    
+}
+.line{
+
+    position: absolute;
+    width: 315px;
+    height: 0px;
+    margin-left: 15px;
+    margin-top:25px;
+    
+    border: 1px solid #3b3b3b;
+}
+.label1{
+
+display: flex;
+margin-left: 25px;
+}
